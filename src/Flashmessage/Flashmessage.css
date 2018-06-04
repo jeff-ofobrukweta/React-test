@@ -1,0 +1,35 @@
+
+#main{
+    margin: 20px;
+    text-align: center;
+}
+@keyframes fadeInOut{
+    0%{
+        opacity: 0;
+    }
+    16%{
+        opacity: 1;
+    }
+    84%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+div .flash {
+    color: rgb(23, 51, 72);
+    height: 26px;
+    width: 100%;
+    background-color: #b39d9a;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    opacity:1;
+    -webkit-animation: fadeInOut 6s;
+    animation: fadeInOut 6s;
+}
+.fade-In{
+    font-weight: bold;
+}
+

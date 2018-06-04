@@ -1,0 +1,96 @@
+
+input[type="text"] {
+    width: 35vw;
+    height: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight:bolder;
+    box-shadow:none;
+    background: #eaeaea;
+    border: none;
+}
+input[type="password"]{
+    width: 35vw;
+    height: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight:bolder;
+    box-shadow:none;
+    background: #eaeaea;
+    border: none;
+}
+
+input[type="email"]{
+    width: 35vw;
+    height: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight:bolder;
+    box-shadow:none;
+    background: #eaeaea;
+    border: none;
+}
+input[type="password"]:focus,input[type="email"]:focus,input[type="text"]:focus{
+    width: 35vw;
+    height: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight:bolder;
+    box-shadow:none;
+    background: #a5a4a4;
+    border: none;
+    letter-spacing:0.1em;
+}
+
+.signup_btn{
+    width:9vw;
+    height: 42px;
+    color:white;
+    font-family:bold;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 32px;
+    background: #923033;
+    border:0px;
+}
+.signup_btn:hover{
+    width:9vw;
+    height: 42px;
+    color:white;
+    font-family:bold;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 32px;
+    background: #923033;
+    border:0px;
+}
+/* margin top to avoid the form too close to top */
+.form li{
+    text-align:center;
+    position: relative;
+    top:0px;
+}
+.handleSubmit{
+    margin-top:-1em;
+}
+
